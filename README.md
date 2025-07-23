@@ -10,6 +10,6 @@ A home page with links to each recipe is provided. The recipes include:
 
 ## HTML Learnings
 * File and content structure
-* Linking pages
+* Linking pages securely
 * Lists
 * Adding images 
