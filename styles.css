@@ -1,0 +1,56 @@
+* {
+    background-color: #458a45;
+}
+
+div,
+h1 {
+    /* text */
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    /* box */
+    width: 800px;
+}
+
+div.container {
+    margin: 150px auto;
+}
+
+h1 {
+    color: brown;
+    background-color: rgb(255, 235, 205);
+    
+    /* text */
+    font-size: 100px;
+    
+    /* box */
+    border: 10px solid #cc3838;
+    margin: 0px auto;
+    padding: 40px 0 40px;
+}
+
+.recipe-links {
+    background-color: #458a45;
+
+    /* box */
+    margin: 100px auto;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.recipe-links
+a {
+    color: rgba(255, 255, 255, 0.884);
+    background-color: rgba(196, 151, 54, 0.932);
+    
+    /* text */
+    font-size: 32px;
+    
+    /* box */
+    border: 5px solid burlywood;
+    margin: 28px auto;
+    padding: 20px;
+    
+    width: 500px;
+    display: block;
+}
