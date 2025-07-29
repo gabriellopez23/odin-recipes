@@ -63,3 +63,81 @@ h1 {
     padding: 20px;
     width: 500px;
 }
+
+.recipe-title {
+    text-align: center;
+    display: block;
+    max-width: 800px;
+}
+
+.heading-1 {
+    font-size: 32px;
+    margin-bottom: 8px;
+    border: 6px solid;
+}
+
+.block {
+    background-color: salmon;
+
+    margin: 0px auto;
+    max-width: 1000px;
+}
+
+.block.title,
+.block.text,
+.block.list {
+    color: rgb(53, 53, 53);
+    border-left: 4px solid orange;
+    border-right: 4px solid orange;
+    padding: 2px 8px;
+}
+
+.block.title {
+    border-top: 4px solid orange;
+    margin-top: 10px;
+}
+
+.block.heading-2 {
+    color: rgb(53, 53, 53);
+    
+    /* text */
+    font-size: 20px;
+
+    /* box */
+    border-bottom: 4px solid rgba(149, 1, 36, 0.399);
+}
+
+.block.text,
+.block.list {
+    font-size: 14px;
+
+    /* box */
+    border-bottom: 4px solid orange;
+}
+
+.block.item {
+    list-style-position: inside;
+    border-bottom: solid rgb(199, 103, 93);
+    padding: 4px 4px 6px 8px;
+}
+
+.block.item.bottom {
+    border-bottom: 0px;
+}
+
+.home-link {
+    color: rgba(255, 255, 255, 0.884);
+    background-color: rgba(198, 153, 55, 0.932);
+    
+    /* text */
+    font-size: 12px;
+    
+    /* box */
+    border: 2px solid rgb(78, 64, 47);
+    margin-top: 2px;
+    margin-left: 24px;
+    padding: 2px 2px 4px;
+    width: 100;
+
+    display: inline-block;
+}
